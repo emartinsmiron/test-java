@@ -74,3 +74,13 @@ Crie endpoints para as seguintes ações:
 - Os produtos podem ficar em memória, não é necessário persistir os dados
 - Sinta-se a vontade para fazer o código em ```groovy``` se preferir, utilizamos bastante aqui
 - Testes são sempre bem-vindos :smiley:
+
+
+## Considerações finais do teste
+
+Nome: Eduardo Marques Martins Miron
+
+1. No teste não há informação de qual warehouse é para retirar o produto, tomei a liberdade de fazer o critério pelo warehouse que tem maior quantidade
+2. Foi feito um tratamento simples de erros com o @ControllerAdvice
+3. A avaliação foi feita utilizando alguns conceitos de DDD
+4. A api rest retorna o produto, ficando assim mais simples para visualização do resultado
